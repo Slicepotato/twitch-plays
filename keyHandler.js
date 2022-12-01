@@ -28,16 +28,14 @@ for (let i = 0; i < throttledCommands.length; i++) {
 }
 
 let defaultKeyMap = config.keymap || {
-  up: "Up",
-  left: "Left",
-  down: "Down",
-  right: "Right",
+  up: "z",
+  left: "x",
+  down: "c",
+  right: "v",
   a: "a",
-  b: "b",
-  x: "x",
-  y: "y",
-  start: "s",
-  select: "e",
+  b: "q",
+  start: "n",
+  select: "m",
 };
 
 function sendKey(command) {
