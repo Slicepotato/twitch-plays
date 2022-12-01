@@ -17,7 +17,7 @@ const commands = [
 ];
 
 const filteredCommands = [];
-const throttleCommands = [];
+const throttledCommands = [];
 
 module.exports = {
     // all commands to print out
@@ -27,7 +27,7 @@ module.exports = {
     // title on the application ('RetroArch')
     programName,
     filteredCommands,
-    throttleCommands,
+    throttledCommands,
     // Thottle time in seconde
     timeToWait: 10000,
     // keypress delay (ms)
