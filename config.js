@@ -1,5 +1,7 @@
+require('dotenv').config();
+
 // Change these two variables
-const channel = process.env.TWITCH_CHANNEL || "";
+const channel = process.env.TWITCH_CHANNEL;
 const programName = process.env.CONFIG_PROGRAM_NAME || "RetroArch";
 
 // List of commands to evaluate
